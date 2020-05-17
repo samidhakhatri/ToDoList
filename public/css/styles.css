@@ -1,0 +1,22 @@
+/******************************CSS Property for elements ********************************/
+
+
+body{
+  background-color: #aa80ff;
+}
+h1{
+  color: #FFF;
+}
+
+/*******************************CSS Property for IDs ************************************/
+
+
+
+/*********************************CSS Property for classes *****************************/
+.box{
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px lightgrey;
+}
