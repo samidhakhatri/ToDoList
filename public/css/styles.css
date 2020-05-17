@@ -1,15 +1,34 @@
 /******************************CSS Property for elements ********************************/
+html{
+  background-image: -webkit-linear-gradient(65deg,#aa80ff 50%, #e6ccff 50%);
+min-height: 1000px;}
 
-
-body{
-  background-color: #aa80ff;
-}
+/* body{
+  background-color:  #e6ccff;
+} */
 h1{
   color: #FFF;
 }
 
-/*******************************CSS Property for IDs ************************************/
+p{
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
 
+
+
+/*******************************CSS Property for IDs ************************************/
+#heading{
+  background-color: #aa80ff;
+  padding: 5px 0 5px 0;
+  border-radius: 5px;
+}
+
+/* #last{
+  border-bottom: none;
+} */
 
 
 /*********************************CSS Property for classes *****************************/
@@ -17,6 +36,43 @@ h1{
   max-width: 400px;
   margin: 50px auto;
   background: white;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px -5px grey;
+  text-align: center;
+}
+
+.btn{
+  margin-right: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: #aa80ff;
+    color:#FFF;
+    border-radius: 100%;
+    border: none;
+    font-size: 1.5rem;
+}
+
+input:checked+p{
+  text-decoration: line-through;
+  text-decoration-color: #aa80ff;
+}
+.item{
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+  font-family: monospace;
+    padding-left: 40px;
+}
+
+.item:last-child{
+  border-bottom: 0;
+}
+
+.newItem{
+  height: 50px;
+    border: none;
+    margin: auto;
+    width: 200px;
+    text-align: center;
 }
